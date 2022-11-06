@@ -1,6 +1,6 @@
 function Modal(){
     return (
-    <div>
+    <div className="modal">
         <p>Are you sure?</p>
         <button className="btn btn--alt">cancel</button>
         <button className="btn">confirm</button>
