@@ -5,9 +5,13 @@ import AllMeetups from './pages/AllMeetups';
 import Favourites from './pages/Favourites';
 import NewMeetups from './pages/NewMeetups';
 
+import MainNavigation from './components/layout/MainNavigation';
+
 
 function App() {
   return <div>
+
+    < MainNavigation />
     <Switch>
       
       < Route path='/' exact >
