@@ -1,3 +1,5 @@
+import MeetupList from "../components/meetups/MeetupList";
+
 function AllMeetups(){
 
     const DUMMY_DATA = [
@@ -5,7 +7,7 @@ function AllMeetups(){
           id: 'm1',
           title: 'This is a first meetup',
           image:
-            'https://upload.wikimedia.org/wikipedia/commons/thumb/d/d3/Stadtbild_M%C3%BCnchen.jpg/2560px-Stadtbild_M%C3%BCnchen.jpg',
+            'https://c0.wallpaperflare.com/preview/472/671/649/samarqand-uzbekistan-registan-ensemble-ruins.jpg',
           address: 'Meetupstreet 5, 12345 Meetup City',
           description:
             'This is a first, amazing meetup which you definitely should not miss. It will be a lot of fun!',
@@ -23,9 +25,7 @@ function AllMeetups(){
 
     return <div>
         <h1>All Meetups</h1>
-        {DUMMY_DATA.map((meetup) => {
-            return <li key={meetup.id} >{meetup.title} </li> 
-        })}
+        < MeetupList meetups={DUMMY_DATA}/>
     </div>
 }
 
