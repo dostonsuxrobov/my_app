@@ -10,17 +10,17 @@ function NewMeetupForm(){
             </div>
 
             <div className={classes.control}>
-                <label htmlFor='image'>Meetup Title</label>
+                <label htmlFor='image'>Meetup image</label>
                 <input type='url' required id="image" />
             </div>
 
             <div className={classes.control}>
-                <label htmlFor='address'>Meetup Title</label>
+                <label htmlFor='address'>Meetup address</label>
                 <input type='text' required id="address" />
             </div>
 
             <div className={classes.control}>
-                <label htmlFor='description'>Meetup Title</label>
+                <label htmlFor='description'>Meetup Description</label>
                 <textarea id='description' description rows='5'></textarea>
             </div>
 
