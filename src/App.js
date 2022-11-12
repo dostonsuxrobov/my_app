@@ -4,7 +4,9 @@ import { Route, Switch } from 'react-router-dom';
 import AllMeetups from './pages/AllMeetups';
 import Favourites from './pages/Favourites';
 import NewMeetups from './pages/NewMeetups';
-import Layout from './components/layout/Layout'
+import Layout from './components/layout/Layout';
+
+
 
 
 function App() {
