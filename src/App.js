@@ -4,6 +4,7 @@ import { Route, Switch } from 'react-router-dom';
 import AllMeetups from './pages/AllMeetups';
 import Favourites from './pages/Favourites';
 import NewMeetups from './pages/NewMeetups';
+import MarioGame from './pages/MarioGame';
 import Layout from './components/layout/Layout';
 
 
@@ -21,6 +22,10 @@ function App() {
 
       <Route path='/new-meetup'>
         <NewMeetups />
+      </Route>
+
+      <Route path='/game'>
+        <MarioGame />
       </Route>
 
       <Route path='/favorites'>

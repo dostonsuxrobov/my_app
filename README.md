@@ -1,6 +1,15 @@
-# Getting Started with Create React App
+# React Meetups + Mario Game
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This application was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+It now includes a very small Mario style mini game which you can find under **Play Mario** in the navigation bar.
+
+To deploy the app to GitHub Pages update the `homepage` field in `package.json` to match your repository URL and run:
+
+```bash
+npm run deploy
+```
+
+The build output will be pushed to the `gh-pages` branch which can be used with GitHub Pages.
 
 ## Available Scripts
 
