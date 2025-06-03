@@ -13,6 +13,7 @@ function MainNavigation() {
         <nav>
             <ul>
                 <li><Link to='/'>Main Link</Link></li>
+                <li><Link to='/game'>Play Mario</Link></li>
                 <li><Link to='/new-meetup'>Add new meetup</Link></li>
                 <li><Link to='/favorites'>
                     Favorites <span className={classes.badge}>{favoritesCtx.totalFavorites}</span> 
