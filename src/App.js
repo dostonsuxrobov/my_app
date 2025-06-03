@@ -14,16 +14,16 @@ function App() {
 
 
     <Switch>
-      
-      < Route path='/' exact >
+
+      <Route path='/' exact>
         <AllMeetups />
       </Route>
 
-      < Route path='/new-meetup'>
+      <Route path='/new-meetup'>
         <NewMeetups />
       </Route>
 
-      < Route path='/favorites'>
+      <Route path='/favorites'>
         <Favourites />
       </Route>
 
