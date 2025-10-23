@@ -1,7 +1,23 @@
-# React Meetups + Mario Game
+# React Meetups + Super Mario Game
 
 This application was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-It now includes a very small Mario style mini game which you can find under **Play Mario** in the navigation bar.
+It now includes a fully-featured **Super Mario Game** with platforms, enemies, coins, and smooth gameplay! You can find it under **Play Mario** in the navigation bar.
+
+## Game Features
+
+- **Classic Mario gameplay** with jumping, running, and platforming
+- **Collect coins** to increase your score (100 points each)
+- **Defeat enemies** by jumping on them (200 points each)
+- **Multiple platforms** and challenging level design
+- **Smooth camera scrolling** that follows Mario
+- **High score tracking** to challenge yourself
+- **Beautiful graphics** with animated Mario, coins, and enemies
+- **Responsive controls** - Use Arrow Keys or WASD to move, Space or Up Arrow to jump
+
+## Play the Game
+
+The game is deployed on GitHub Pages and can be played at:
+**https://dostonsuxrobov.github.io/my_app**
 
 To deploy the app to GitHub Pages update the `homepage` field in `package.json` to match your repository URL and run:
 
